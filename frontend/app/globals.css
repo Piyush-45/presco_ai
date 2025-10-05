@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom colors for hospital theme */
+  --color-primary: #3b82f6;
+  --color-secondary: #10b981;
+  --color-danger: #ef4444;
+  --color-warning: #f59e0b;
+  --color-success: #10b981;
+
+  /* Custom font */
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  /* Custom spacing */
+  --spacing-18: 4.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans;
+  }
+}
