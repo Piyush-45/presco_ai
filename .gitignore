@@ -1,0 +1,15 @@
+# Ignore Python and environment files
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Ignore backend copy folder
+backend_copy/
+
+# Ignore local databases and logs
+*.db
+*.log
+
+# Ignore Mac system files
+.DS_Store
